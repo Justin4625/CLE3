@@ -13,29 +13,82 @@
 <body>
 <section id="homePageQuestions">
     <h3>Welke chronische aandoening(en) heeft u last van?</h3>
-    <button onclick="toggleDropdown()">Selecteer opties</button>
+    <button onclick="toggleDropdown()">Selecteer optie(s)</button>
     <div id="dropdownContent" style="display: none;">
-        <label><input type="checkbox" name="item1" value="item1"> Diabetes</label><br>
-        <label><input type="checkbox" name="item2" value="item2"> Hypertensie</label><br>
-        <label><input type="checkbox" name="item3" value="item3"> Chronische obstructieve longziekte</label><br>
-        <label><input type="checkbox" name="item4" value="item4"> Astma</label><br>
-        <label><input type="checkbox" name="item5" value="item5"> Hartziekte</label><br>
-        <label><input type="checkbox" name="item6" value="item6"> Chronische nierziekte</label><br>
-        <label><input type="checkbox" name="item7" value="item7"> Reumatoïde artritis</label><br>
-        <label><input type="checkbox" name="item8" value="item8"> Artrose</label><br>
-        <label><input type="checkbox" name="item9" value="item9"> Migraine</label><br>
-        <label><input type="checkbox" name="item10" value="item10"> Epilepsie</label><br>
-        <label><input type="checkbox" name="item11" value="item11"> Fibromyalgie</label><br>
-        <label><input type="checkbox" name="item12" value="item12"> Multiple sclerose</label><br>
-        <label><input type="checkbox" name="item13" value="item13"> Ziekte van Crohn</label><br>
-        <label><input type="checkbox" name="item14" value="item14"> Colitis ulcerosa</label><br>
-        <label><input type="checkbox" name="item15" value="item15"> Auto-immuunziekten</label><br>
-        <label><input type="checkbox" name="item16" value="item16"> Psoriasis</label><br>
-        <label><input type="checkbox" name="item17" value="item17"> Hiv/aids</label><br>
-        <label><input type="checkbox" name="item18" value="item18"> Hepatitis</label><br>
-        <label><input type="checkbox" name="item19" value="item19"> Ziekte van Parkinson</label><br>
-        <label><input type="checkbox" name="item20" value="item20"> Alzheimer's ziekte</label><br>
+        <label><input type="checkbox" name="ziekte1" value="ziekte1"> Diabetes</label><br>
+        <label><input type="checkbox" name="ziekte2" value="ziekte2"> Hypertensie</label><br>
+        <label><input type="checkbox" name="ziekte3" value="ziekte3"> Chronische obstructieve longziekte</label><br>
+        <label><input type="checkbox" name="ziekte4" value="ziekte4"> Astma</label><br>
+        <label><input type="checkbox" name="ziekte5" value="ziekte5"> Hartziekte</label><br>
+        <label><input type="checkbox" name="ziekte6" value="ziekte6"> Chronische nierziekte</label><br>
+        <label><input type="checkbox" name="ziekte7" value="ziekte7"> Reumatoïde artritis</label><br>
+        <label><input type="checkbox" name="ziekte8" value="ziekte8"> Artrose</label><br>
+        <label><input type="checkbox" name="ziekte9" value="ziekte9"> Migraine</label><br>
+        <label><input type="checkbox" name="ziekte10" value="ziekte10"> Epilepsie</label><br>
+        <label><input type="checkbox" name="ziekte11" value="ziekte11"> Fibromyalgie</label><br>
+        <label><input type="checkbox" name="ziekte12" value="ziekte12"> Multiple sclerose</label><br>
+        <label><input type="checkbox" name="ziekte13" value="ziekte13"> Ziekte van Crohn</label><br>
+        <label><input type="checkbox" name="ziekte14" value="ziekte14"> Colitis ulcerosa</label><br>
+        <label><input type="checkbox" name="ziekte15" value="ziekte15"> Auto-immuunziekten</label><br>
+        <label><input type="checkbox" name="ziekte16" value="ziekte16"> Psoriasis</label><br>
+        <label><input type="checkbox" name="ziekte17" value="ziekte17"> Hiv/aids</label><br>
+        <label><input type="checkbox" name="ziekte18" value="ziekte18"> Hepatitis</label><br>
+        <label><input type="checkbox" name="ziekte19" value="ziekte19"> Ziekte van Parkinson</label><br>
+        <label><input type="checkbox" name="ziekte20" value="ziekte20"> Alzheimer's ziekte</label><br>
     </div>
+
+    <h3>Hoeveel last ervaart u van deze aandoening(en)</h3>
+    <button onclick="toggleDropdown2()">Selecteer optie(s)</button>
+    <div id="dropdownContent2" style="display: none;">
+        <label><input type="checkbox" name="tijd1" value="tijd1"> Altijd</label><br>
+        <label><input type="checkbox" name="tijd2" value="tijd2"> Bijna altijd</label><br>
+        <label><input type="checkbox" name="tijd3" value="tijd3"> Weinig last</label><br>
+        <label><input type="checkbox" name="tijd4" value="tijd4"> Geen last</label><br>
+        <label><input type="checkbox" name="tijd5" value="tijd5"> Meer bij kouder weer, minder bij warmer
+            weer</label><br>
+        <label><input type="checkbox" name="tijd6" value="tijd6"> Meer bij warmer weer, minder bij kouder
+            meer</label><br>
+    </div>
+
+    <h3>Welk lichaamsdeel / lichaamsdelen kunt u niet gebruiken?</h3>
+    <button onclick="toggleDropdown3()">Selecteer optie(s)</button>
+    <div id="dropdownContent3" style="display: none;">
+        <label><input type="checkbox" name="lichaam1" value="lichaam1"> Hoofd</label><br>
+        <label><input type="checkbox" name="lichaam2" value="lichaam2"> Hals</label><br>
+        <label><input type="checkbox" name="lichaam3" value="lichaam3"> Schouders</label><br>
+        <label><input type="checkbox" name="lichaam4" value="lichaam4"> Armen</label><br>
+        <label><input type="checkbox" name="lichaam5" value="lichaam5"> Ellebogen</label><br>
+        <label><input type="checkbox" name="tlichaam6" value="lichaam6"> Handen</label><br>
+        <label><input type="checkbox" name="tlichaam7" value="lichaam7"> Borst</label><br>
+        <label><input type="checkbox" name="tlichaam8" value="lichaam8"> Buik</label><br>
+        <label><input type="checkbox" name="tlichaam9" value="lichaam9"> Rug</label><br>
+        <label><input type="checkbox" name="tlichaam10" value="lichaam10"> Heupen</label><br>
+        <label><input type="checkbox" name="tlichaam11" value="lichaam11"> Benen</label><br>
+        <label><input type="checkbox" name="tlichaam12" value="lichaam12"> Knieën</label><br>
+        <label><input type="checkbox" name="tlichaam13" value="lichaam13"> Enkels</label><br>
+        <label><input type="checkbox" name="tlichaam14" value="lichaam14"> Voeten</label><br>
+        <label><input type="checkbox" name="tlichaam15" value="lichaam15"> Tenen</label><br>
+    </div>
+
+    <h3>Wat is nu uw energieniveau?</h3>
+    <div class="radio">
+        <input required type="radio" id="one" name="energy">
+        <label for="one">1</label>
+
+        <input required type="radio" id="two" name="energy">
+        <label for="two">2</label>
+
+        <input required type="radio" id="three" name="energy">
+        <label for="three">3</label>
+
+        <input required type="radio" id="four" name="energy">
+        <label for="four">4</label>
+
+        <input required type="radio" id="five" name="energy">
+        <label for="five">5</label>
+    </div>
+
+    <button>Submit</button>
 </section>
 </body>
 
