@@ -1,0 +1,19 @@
+body {
+    background-color: #EEF4ED;
+}
+
+nav {
+    background-color: #326D6C;
+}
+
+#homePageQuestions {
+    background-color: #85B093;
+    text-align: center;
+}
+
+#homePageQuestions button {
+    background-color: #EEF4ED;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
