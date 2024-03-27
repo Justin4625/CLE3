@@ -1,25 +1,31 @@
 * {
     text-align: center;
+    background-color: #EEF4ED;
 }
 
 body {
-    background-color: #EEF4ED;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: #85B093;
+}
+
+h3 {
+    background-color: #85B093;
 }
 
 nav {
     background-color: #326D6C;
-    max-width: 400px;
     padding: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    margin: 0 auto;
 }
 
 #homePageQuestions {
     background-color: #85B093;
-    max-width: 400px;
     padding: 25px;
-    margin: 0 auto;
 }
 
 #homePageQuestions button {
@@ -35,4 +41,12 @@ nav {
 
 #dropdownContent2 {
     text-align: left;
+}
+
+.radio {
+    background-color: #85B093;
+}
+
+.radio label {
+    background-color: #85B093;
 }
