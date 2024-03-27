@@ -112,3 +112,16 @@ label {
     display: flex;
     justify-content: space-between;
 }
+
+.backButton {
+    width: 25px;
+    height: 25px;
+    background-color: #85B093;
+    border: none;
+}
+
+.backButtonImage {
+    width: 25px;
+    height: 25px;
+    background-color: #85B093;
+}
