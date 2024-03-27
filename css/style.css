@@ -12,6 +12,7 @@ h2 {
     background-color: #85B093;
     text-align: left;
     margin-top: 0;
+    padding: 10px
 }
 
 h3 {
@@ -21,6 +22,7 @@ h3 {
 
 .kind {
     background-color: #EEF4ED;
+    margin-bottom: 5px;
 }
 
 nav {
@@ -46,7 +48,7 @@ nav a {
     background-color: #85B093;
     padding: 25px;
     margin: 0 auto;
-    height: 75vh;
+    min-height: 80vh;
 }
 
 #homePageQuestions button {
@@ -54,6 +56,11 @@ nav a {
     padding-right: 50px;
     padding-left: 50px;
     border-radius: 5px;
+    width: 300px;
+}
+
+.submitButton {
+    margin-top: 25px;
 }
 
 label {
@@ -74,7 +81,12 @@ label {
     background-color: #85B093;
 }
 
-button {
+.buttons {
+    text-align: left;
+    margin-bottom: 75px;
+}
+
+.buttons button {
     background-color: #85B093;
     border: none;
     border-radius: 4px;
@@ -82,4 +94,18 @@ button {
     padding-bottom: 5px;
     padding-right: 8px;
     padding-left: 8px;
+    margin-left: 10px;
+}
+
+.recommendations {
+    background-color: #85B093;
+}
+
+.recommendation {
+    padding: 20px;
+    background-color: #EEF4ED;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
 }
