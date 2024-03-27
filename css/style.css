@@ -24,9 +24,14 @@ h3 {
 
 nav {
     background-color: #326D6C;
-    padding: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+nav img {
+    background-color: #326D6C;
+    max-width: 75px;
 }
 
 nav a {
@@ -36,6 +41,7 @@ nav a {
 #homePageQuestions {
     background-color: #85B093;
     padding: 25px;
+    max-width: 350px;
 }
 
 #homePageQuestions button {
@@ -47,10 +53,12 @@ nav a {
 
 #dropdownContent {
     text-align: left;
+    background-color: #85B093;
 }
 
 #dropdownContent2 {
     text-align: left;
+    background-color: #85B093;
 }
 
 .radio {
