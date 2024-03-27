@@ -15,3 +15,7 @@ function toggleDropdown2() {
         dropdownContent.style.display = "none";
     }
 }
+
+function linkToHomepage() {
+    window.location.href = "homepage.html"
+}
