@@ -155,3 +155,17 @@ label {
 button {
     cursor: pointer;
 }
+
+.profileData label {
+    background-color: #EEF4ED;
+}
+
+.profileData a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+input {
+    background-color: #BDD1BD;
+    border: none;
+}
