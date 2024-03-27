@@ -27,3 +27,7 @@ function linkToHomepage() {
 function linkToKrachttraining() {
     window.location.href = "krachttraining.html"
 }
+
+function linkToWorkoutDetailsBovenlichaam() {
+    window.location.href = "workoutdetailsBovenlichaam.html"
+}
