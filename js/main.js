@@ -16,6 +16,10 @@ function toggleDropdown2() {
     }
 }
 
+function linkToProfile() {
+    window.location.href = "profile.html"
+}
+
 function linkToHomepage() {
     window.location.href = "homepage.html"
 }
