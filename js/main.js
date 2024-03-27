@@ -19,3 +19,7 @@ function toggleDropdown2() {
 function linkToHomepage() {
     window.location.href = "homepage.html"
 }
+
+function linkToKrachttraining() {
+    window.location.href = "krachttraining.html"
+}
