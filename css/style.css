@@ -57,6 +57,9 @@ nav a {
     padding-left: 50px;
     border-radius: 5px;
     width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .submitButton {
