@@ -18,6 +18,20 @@ h2 {
 h3 {
     background-color: #85B093;
     text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.titelInventarisatie{
+    background-color: #BDD1BD;
+    text-align: left;
+}
+
+.vragenDagelijks{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #BDD1BD;
 }
 
 .kind {
@@ -46,7 +60,6 @@ nav a {
 
 #homePageQuestions {
     background-color: #85B093;
-    padding: 25px;
     margin: 0 auto;
     min-height: 80vh;
 }
