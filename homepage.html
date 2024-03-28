@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Hoofdpagina</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/main.js" defer></script>
+    <script type="text/javascript" src="js/homepage.js" defer></script>
 </head>
 <body>
 <nav>
     <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&"
          alt="logo">
-    <button class="profileButton" onclick="linkToProfile()">Profiel</button>
+    <button class="profileButton" id="profile">Profiel</button>
 </nav>
 <div>
     <h2>Workouts</h2>
@@ -19,7 +19,7 @@
 <section class="buttons">
     <h3 class="kind">Soort workout:</h3>
     <button>Cardio</button>
-    <button onclick="linkToKrachttraining()">Krachttraining</button>
+    <button id="strengthButton">Krachttraining</button>
     <button>Mobiliteit</button>
     <button>Plates</button>
 </section>

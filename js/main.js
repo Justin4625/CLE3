@@ -10,7 +10,7 @@ function init(){
   selectOption.addEventListener('click', toggleDropdown2);
   selectOptions.addEventListener('click', toggleDropdown);
   submitButton = document.getElementById('buttonToHome');
-  submitButton.addEventListener('submit', linkToHomepage)
+  submitButton.addEventListener('click', linkToHomepage);
 }
 
 function toggleDropdown() {
@@ -23,6 +23,7 @@ function toggleDropdown() {
 }
 
 function toggleDropdown2() {
+
     let dropdownContent2 = document.getElementById("dropdownContent2");
     if (dropdownContent2.style.display === "none") {
         dropdownContent2.style.display = "block";
@@ -31,16 +32,9 @@ function toggleDropdown2() {
     }
 }
 
-function linkToProfile() {
-    window.location.href = "profile.html"
-}
-
-function linkToHomepage() {
+function linkToHomepage(e){
     window.location.href = "homepage.html"
-}
 
-function linkToKrachttraining() {
-    window.location.href = "krachttraining.html"
 }
 
 function linkToWorkoutDetailsBovenlichaam() {
