@@ -34,3 +34,7 @@ function linkToKrachttraining() {
 function linkToWorkoutDetailsBovenlichaam() {
     window.location.href = "workoutdetailsBovenlichaam.html"
 }
+
+function linkToBovenlichaamLatPulldown() {
+    window.location.href = "bovenlichaamLatPulldown.html"
+}

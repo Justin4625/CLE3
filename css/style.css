@@ -19,7 +19,6 @@ h3 {
     background-color: #85B093;
     text-align: left;
     padding-left: 25px;
-    padding-top: 10px;
     margin-top: 0;
 }
 
@@ -45,6 +44,7 @@ nav {
     text-align: left;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav img {
@@ -58,10 +58,22 @@ nav a {
     text-decoration: none;
 }
 
+.profileButton {
+    border: none;
+    background-color: #85B093;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+}
+
 #homePageQuestions {
     background-color: #85B093;
     margin: 0 auto;
     min-height: 80vh;
+}
+
+#homePageQuestions h3 {
+    padding-top: 20px;
 }
 
 #homePageQuestions button {
@@ -115,12 +127,12 @@ label {
 
 .recommendations {
     background-color: #85B093;
+    margin-bottom: 0;
 }
 
 .recommendation {
     padding: 20px;
     background-color: #EEF4ED;
-    margin-top: 5px;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
@@ -137,4 +149,23 @@ label {
     width: 25px;
     height: 25px;
     background-color: #85B093;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.profileData label {
+    background-color: #EEF4ED;
+}
+
+.profileData a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+input {
+    background-color: #BDD1BD;
+    border: none;
 }
