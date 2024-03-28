@@ -1,20 +1,16 @@
-* {
-    background-color: #EEF4ED;
-}
-
 body {
     margin: 0 auto;
 }
 
 h2 {
-    background-color: #85B093;
+    font-size: 3rem;
     text-align: left;
     margin-top: 0;
     padding: 10px
 }
 
 h3 {
-    background-color: #85B093;
+    font-size: 2rem;
     text-align: left;
     padding-left: 25px;
     margin-top: 0;
@@ -26,7 +22,7 @@ h3 {
 }
 
 .vragenDagelijks{
-    margin-top: 20px;
+    margin-top: 1vh;
     margin-bottom: 20px;
     background-color: #BDD1BD;
 }
@@ -38,20 +34,17 @@ h3 {
 
 nav {
     background-color: #326D6C;
-    padding: 5px;
-    text-align: left;
+    padding: 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav img {
-    background-color: #326D6C;
-    max-width: 75px;
+    max-width: 13vw;
 }
 
 nav a {
-    background-color: #85B093;
     color: black;
     text-decoration: none;
 }
@@ -59,53 +52,47 @@ nav a {
 .profileButton {
     border: none;
     background-color: #85B093;
-    height: 35px;
-    width: 80px;
-    border-radius: 5px;
+    width: 20vw;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 20px;
+    margin-right: 2vw;
 }
 
 #homePageQuestions {
     background-color: #85B093;
     margin: 0 auto;
     min-height: 80vh;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #homePageQuestions h3 {
-    padding-top: 20px;
+    padding-top: 1vh;
 }
 
 #homePageQuestions button {
+    font-size: 2rem;
     background-color: #EEF4ED;
-    padding-right: 50px;
-    padding-left: 50px;
-    border-radius: 5px;
-    width: 300px;
     border: none;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 35vw;
+    padding-left: 35vw;
 }
 
 .submitButton {
     margin-top: 25px;
 }
 
-label {
-    background-color: #85B093;
-}
-
 #dropdownContent {
     text-align: left;
-    background-color: #85B093;
 }
 
 #dropdownContent2 {
     text-align: left;
-    background-color: #85B093;
-}
-
-.radio {
-    background-color: #85B093;
 }
 
 .buttons {

@@ -34,7 +34,6 @@ function toggleDropdown2() {
 
 function linkToHomepage(e){
     window.location.href = "homepage.html"
-
 }
 
 function linkToWorkoutDetailsBovenlichaam() {
