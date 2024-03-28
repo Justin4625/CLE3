@@ -1,14 +1,17 @@
-function toggleDropdown() {
-    let dropdownContent = document.getElementById("dropdownContent");
-    if (dropdownContent.style.display === "none") {
-        dropdownContent.style.display = "block";
-    } else {
-        dropdownContent.style.display = "none";
-    }
+window.addEventListener('load', init);
+
+let selectOption
+let selectOptions
+
+function init(){
+  selectOption = document.getElementById('selectOption');
+  selectOptions = document.getElementById('selectOptions');
+  selectOption.addEventListener('click', toggleDropdown);
+  selectOptions.addEventListener('click', toggleDropdown);
 }
 
-function toggleDropdown2() {
-    let dropdownContent = document.getElementById("dropdownContent2");
+function toggleDropdown() {
+    let dropdownContent = document.getElementById("dropdownContent");
     if (dropdownContent.style.display === "none") {
         dropdownContent.style.display = "block";
     } else {
