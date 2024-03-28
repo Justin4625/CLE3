@@ -50,3 +50,11 @@ function linkToWorkoutDetailsBovenlichaam() {
 function linkToBovenlichaamLatPulldown() {
     window.location.href = "bovenlichaamLatPulldown.html"
 }
+
+function linkToLatPulldownPasAan() {
+    window.location.href = "latPulldownPasAan.html"
+}
+
+function linktoFilters() {
+    window.location.href = "filters.html"
+}
