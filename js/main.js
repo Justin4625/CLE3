@@ -37,18 +37,10 @@ function linkToHomepage(e){
 
 }
 
-function linkToWorkoutDetailsBovenlichaam() {
-    window.location.href = "workoutdetailsBovenlichaam.html"
-}
-
 function linkToBovenlichaamLatPulldown() {
     window.location.href = "bovenlichaamLatPulldown.html"
 }
 
 function linkToLatPulldownPasAan() {
     window.location.href = "latPulldownPasAan.html"
-}
-
-function linktoFilters() {
-    window.location.href = "filters.html"
 }
