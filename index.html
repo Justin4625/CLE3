@@ -13,7 +13,7 @@
 </nav>
 <section id="homePageQuestions">
         <h3>Welke chronische aandoening(en) heeft u last van?</h3>
-        <button onclick="toggleDropdown()">Selecteer optie(s)</button>
+        <button id="selectOptions">Selecteer optie(s)</button>
         <div id="dropdownContent" style="display: none;">
             <label><input type="checkbox" name="ziekte1" value="ziekte1"> Diabetes</label><br>
             <label><input type="checkbox" name="ziekte2" value="ziekte2"> Hypertensie</label><br>
@@ -43,7 +43,7 @@
     </div>
 
         <h3>Wat wilt u trainen?</h3>
-        <button onclick="toggleDropdown2()">Selecteer optie(s)</button>
+        <button id="selectOption">Selecteer optie(s)</button>
         <div id="dropdownContent2" style="display: none;">
             <label><input type="checkbox" name="lichaam1" value="lichaam1"> Schouders</label><br>
             <label><input type="checkbox" name="lichaam2" value="lichaam2"> Tricep</label><br>
@@ -60,6 +60,7 @@
             <label><input type="checkbox" name="tlichaam13" value="lichaam13"> Enkels</label><br>
             <label><input type="checkbox" name="tlichaam14" value="lichaam14"> Knieen</label><br>
             <label><input type="checkbox" name="tlichaam15" value="lichaam15"> Elleboog</label><br>
+            <label><input type="checkbox" name="tlichaam16" value="lichaam16"> Hele lichaam</label><br>
 
         </div>
 
@@ -81,7 +82,7 @@
             <label for="five">5</label>
         </div>
 
-    <button class="submitButton" onclick="linkToHomepage()">Submit</button>
+    <button class="submitButton" id="buttonToHome">Submit</button>
 </section>
 </body>
 
