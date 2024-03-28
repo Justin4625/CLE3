@@ -10,27 +10,29 @@
 <nav>
     <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&">
 </nav>
-<div>
-    <button onclick="linkToHomepage()">Terug naar hoofdpagina</button>
+<div class="profileBack">
+    <button class="backButton" onclick="linkToHomepage()"><img class="backButtonImage" src="https://static.thenounproject.com/png/1227050-200.png" alt="arrow"></button>
 </div>
 
 <section class="profileData">
-    <div class="profileInfo">
-        <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478177515999242/funny_profile.jpeg?ex=66165c86&is=6603e786&hm=5671c5fde119cd459572d9ce4e94f4e9a1f4410e338e4113ce4641dfbe5c0962&">
-        <a href="#">Foto aanpassen</a>
-    </div>
     <form action="#">
-        <div class="nameInputs">
-            <div>
-                <label for="firstname">Voornaam</label>
-                <input required type="text" id="firstname" name="firstname">
+        <section class="upperProfile">
+            <div class="profileImage">
+                <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478177515999242/funny_profile.jpeg?ex=66165c86&is=6603e786&hm=5671c5fde119cd459572d9ce4e94f4e9a1f4410e338e4113ce4641dfbe5c0962&">
+                <a href="#">Foto aanpassen</a>
             </div>
-            <div>
-                <label for="lastname">Achternaam</label>
-                <input required type="text" id="lastname" name="lastname">
+            <div class="nameInputs">
+                <div>
+                    <label for="firstname">Voornaam</label>
+                    <input required type="text" id="firstname" name="firstname">
+                </div>
+                <div>
+                    <label for="lastname">Achternaam</label>
+                    <input required type="text" id="lastname" name="lastname">
+                </div>
             </div>
-        </div>
-        <div class="contactInfo">
+        </section>
+        <section class="contactInfo">
             <div>
                 <label for="email">Email</label>
                 <input required type="email" id="email" name="email">
@@ -39,7 +41,7 @@
                 <label for="phonenumber">Telefoonnummer</label>
                 <input required type="tel" id="phonenumber" name="phonenumber">
             </div>
-        </div>
+        </section>
         <div class="submit">
             <button type="submit">Gegevens aanpassen</button>
         </div>

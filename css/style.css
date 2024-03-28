@@ -139,15 +139,13 @@ label {
 }
 
 .backButton {
-    width: 25px;
-    height: 25px;
+    width: 20px;
     background-color: #85B093;
     border: none;
 }
 
 .backButtonImage {
-    width: 25px;
-    height: 25px;
+    width: 15px;
     background-color: #85B093;
     cursor: pointer;
 }
@@ -165,7 +163,30 @@ button {
     color: lightgray;
 }
 
+.profileData img {
+    width: 50%;
+    border-radius: 50%;
+}
+
 input {
     background-color: #BDD1BD;
     border: none;
+}
+
+.upperProfile {
+    display: flex;
+    align-items: center;
+}
+
+.nameInputs {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.profileImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 }
