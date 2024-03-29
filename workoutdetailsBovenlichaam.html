@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>Workout details - Bovenlichaam</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/main.js" defer></script>
+    <script type="text/javascript" src="js/workoutdetails.js" defer></script>
 </head>
 <body>
 <nav>
     <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&" alt="logo">
-    <button class="profileButton" onclick="linkToProfile()">Profiel</button>
+    <button class="profileButton" id="profileButton">Profiel</button>
 </nav>
 <div>
     <h2>
-        <button class="backButton" onclick="linkToKrachttraining()"><img class="backButtonImage"
+        <button class="backButton" id="arrowBack"><img class="backButtonImage"
                                                                          src="https://static.thenounproject.com/png/1227050-200.png" alt="arrow">
         </button>
         Bovenlichaam
@@ -53,8 +53,7 @@
 <section>
     <div>Lat pulldown</div>
     <div>3 x 12 sets</div>
-    <button onclick="linkToBovenlichaamLatPulldown()">Oefening (deze knop gaat nog weg)</button>
-    <button onclick="linkToLatPulldownPasAan()">Pas aan</button>
+    <button id="changeButton">Pas aan</button>
 
     <div>Bicep curl (machine)</div>
     <div>3 x 12 sets</div>
@@ -73,7 +72,7 @@
     <button>Pas aan</button>
 </section>
 
-<button>Start Workout</button>
+<button id="startWorkoutButton">Start Workout</button>
 
 </body>
 </html>
