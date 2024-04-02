@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>Workout details - Bovenlichaam</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/main.js" defer></script>
+    <script type="text/javascript" src="js/workoutdetails.js" defer></script>
 </head>
 <body>
 <nav>
     <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&" alt="logo">
-    <button class="profileButton" onclick="linkToProfile()">Profiel</button>
+    <button class="profileButton" id="profileButton">Profiel</button>
 </nav>
 <div>
     <h2>
-        <button class="backButton" onclick="linkToKrachttraining()"><img class="backButtonImage"
+        <button class="backButton" id="arrowBack"><img class="backButtonImage"
                                                                          src="https://static.thenounproject.com/png/1227050-200.png" alt="arrow">
         </button>
         Bovenlichaam
@@ -27,22 +27,22 @@
 <section>
     <div>
     <img src="https://cdn-icons-png.freepik.com/512/535/535239.png" alt="location">
-    <p>Locatie: Sportschool</p>
+    <div>Locatie: Sportschool</div>
     </div>
 
     <div>
         <img src="https://static-00.iconduck.com/assets.00/timer-icon-512x512-vrl212i7.png" alt="timer">
-    <p>Duur: 25 min</p>
+    <div>Duur: 25 min</div>
     </div>
 
     <div>
         <img src="https://cdn-icons-png.flaticon.com/512/657/657104.png" alt="energy">
-    <p>Energie niveau: 2</p>
+    <div>Energie niveau: 2</div>
     </div>
 
     <div>
         <img src="https://static.thenounproject.com/png/49996-200.png" alt="material">
-    <p>Benodigheden: Dumbells, single handle en trainingstouw cable attachment</p>
+    <div>Benodigheden: Dumbells, single handle en trainingstouw cable attachment</div>
     </div>
 
 </section>
@@ -51,29 +51,28 @@
 </div>
 
 <section>
-    <p>Lat pulldown</p>
-    <p>3 x 12 sets</p>
-    <button onclick="linkToBovenlichaamLatPulldown()">Oefening (deze knop gaat nog weg)</button>
-    <button onclick="linkToLatPulldownPasAan()">Pas aan</button>
+    <div>Lat pulldown</div>
+    <div>3 x 12 sets</div>
+    <button id="changeButton">Pas aan</button>
 
-    <p>Bicep curl (machine)</p>
-    <p>3 x 12 sets</p>
+    <div>Bicep curl (machine)</div>
+    <div>3 x 12 sets</div>
     <button>Pas aan</button>
 
-    <p>Seated row (single arm)</p>
-    <p>3 x 10 sets</p>
+    <div>Seated row (single arm)</div>
+    <div>3 x 10 sets</div>
     <button>Pas aan</button>
 
-    <p>Bicep curl (cable)</p>
-    <p>3 x 10 sets</p>
+    <div>Bicep curl (cable)</div>
+    <div>3 x 10 sets</div>
     <button>Pas aan</button>
 
-    <p>Rear delt</p>
-    <p>3 x 12 sets</p>
+    <div>Rear delt</div>
+    <div>3 x 12 sets</div>
     <button>Pas aan</button>
 </section>
 
-<button>Start Workout</button>
+<button id="startWorkoutButton">Start Workout</button>
 
 </body>
 </html>

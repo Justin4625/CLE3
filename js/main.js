@@ -34,13 +34,4 @@ function toggleDropdown2() {
 
 function linkToHomepage(e){
     window.location.href = "homepage.html"
-
-}
-
-function linkToBovenlichaamLatPulldown() {
-    window.location.href = "bovenlichaamLatPulldown.html"
-}
-
-function linkToLatPulldownPasAan() {
-    window.location.href = "latPulldownPasAan.html"
 }
