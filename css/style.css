@@ -19,12 +19,15 @@ h3 {
 .titelInventarisatie{
     background-color: #BDD1BD;
     text-align: left;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .vragenDagelijks{
-    margin-top: 1vh;
-    margin-bottom: 20px;
-    background-color: #BDD1BD;
+    margin-top: 4vh;
+    background-color: #EEF4ED;
+    width: 100vw;
 }
 
 .kind {
@@ -64,11 +67,11 @@ nav a {
 
 #homePageQuestions {
     background-color: #85B093;
-    margin: 0 auto;
     min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3vh;
 }
 
 #homePageQuestions h3 {
@@ -80,10 +83,13 @@ nav a {
     background-color: #EEF4ED;
     border: none;
     border-radius: 20px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-right: 35vw;
-    padding-left: 35vw;
+    width: 70vw;
+    height: 5vh;
+}
+
+.vragen {
+    padding: 0;
+    width: 70vw;
 }
 
 .submitButton {
@@ -91,11 +97,35 @@ nav a {
 }
 
 #dropdownContent {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     text-align: left;
+    font-size: 2rem;
+    padding-right: 50vw;
 }
 
 #dropdownContent2 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     text-align: left;
+    font-size: 2rem;
+    padding-right: 20vw;
+}
+
+.radio {
+    display: flex;
+    text-align: center;
+}
+
+.radio input {
+    height: 1.5rem;
+    width: 100%;
+}
+
+.radio label {
+    font-size: 2rem;
+    padding: 1vw;
+    font-weight: bold;
 }
 
 .workoutTitle {

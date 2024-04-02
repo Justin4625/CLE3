@@ -12,7 +12,7 @@
     <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&" alt="logo">
 </nav>
 <section id="homePageQuestions">
-        <h3>Welke chronische aandoening(en) heeft u last van?</h3>
+        <h3 class="vragen">Welke chronische aandoening(en) heeft u last van?</h3>
         <button id="selectOption">Selecteer optie(s)</button>
         <div id="dropdownContent2" style="display: none;">
             <label><input type="checkbox" name="ziekte1" value="ziekte1"> Diabetes</label><br>
@@ -42,7 +42,7 @@
         <h2 class="titelInventarisatie">Inventarisatie vragen</h2>
     </div>
 
-        <h3>Wat wilt u trainen?</h3>
+        <h3 class="vragen">Wat wilt u trainen?</h3>
         <button id="selectOptions">Selecteer optie(s)</button>
         <div id="dropdownContent" style="display: none;">
             <label><input type="checkbox" name="lichaam1" value="lichaam1"> Schouders</label><br>
@@ -64,22 +64,32 @@
 
         </div>
 
-        <h3>Wat is nu uw energieniveau?</h3>
+        <h3 class="vragen">Wat is nu uw energieniveau?</h3>
         <div class="radio">
-            <input required type="radio" id="one" name="energy">
-            <label for="one">1</label>
+            <div>
+                <input required type="radio" id="one" name="energy">
+                <label for="one">1</label>
+            </div>
 
-            <input required type="radio" id="two" name="energy">
-            <label for="two">2</label>
+            <div>
+                <input required type="radio" id="two" name="energy">
+                <label for="two">2</label>
+            </div>
 
-            <input required type="radio" id="three" name="energy">
-            <label for="three">3</label>
+            <div>
+                <input required type="radio" id="three" name="energy">
+                <label for="three">3</label>
+            </div>
 
-            <input required type="radio" id="four" name="energy">
-            <label for="four">4</label>
+            <div>
+                <input required type="radio" id="four" name="energy">
+                <label for="four">4</label>
+            </div>
 
-            <input required type="radio" id="five" name="energy">
-            <label for="five">5</label>
+            <div>
+                <input required type="radio" id="five" name="energy">
+                <label for="five">5</label>
+            </div>
         </div>
 
     <button class="submitButton" id="buttonToHome">Submit</button>
