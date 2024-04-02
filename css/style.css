@@ -30,6 +30,9 @@ h3 {
 .kind {
     background-color: #EEF4ED;
     margin-bottom: 5px;
+    font-size: 3rem;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 nav {
@@ -95,6 +98,18 @@ nav a {
     text-align: left;
 }
 
+.workoutTitle {
+    font-size: 4rem;
+    margin-left: 1vh;
+    margin-bottom: 0;
+}
+
+.titleBorder {
+    background-color: #85B093;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .buttons {
     text-align: left;
     margin-bottom: 75px;
@@ -104,16 +119,19 @@ nav a {
     background-color: #85B093;
     border: none;
     border-radius: 4px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 8px;
-    padding-left: 8px;
-    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 50px;
+    margin-top: 2vh;
+    font-size: 1.5rem;
 }
 
 .recommendations {
     background-color: #85B093;
     margin-bottom: 0;
+    font-size: 2rem;
 }
 
 .recommendation {
