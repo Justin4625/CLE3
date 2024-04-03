@@ -31,7 +31,7 @@ h3 {
     width: 100vw;
 }
 
-.kind {
+#filters {
     background-color: #EEF4ED;
     margin-bottom: 5px;
     font-size: 3rem;
@@ -133,6 +133,8 @@ nav a {
     font-size: 4rem;
     margin-left: 1vh;
     margin-bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
 .titleBorder {
@@ -178,9 +180,20 @@ nav a {
     border: none;
 }
 
+.backButton1 {
+    background-color: #85B093;
+    border: none;
+}
+
 .backButtonImage {
     width: 100px;
     background-color: #EEF4ED;
+    cursor: pointer;
+}
+
+.backButtonImage1 {
+    width: 100px;
+    background-color: #85B093;
     cursor: pointer;
 }
 
