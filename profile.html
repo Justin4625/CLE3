@@ -8,17 +8,21 @@
 </head>
 <body>
 <nav>
-    <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&" alt="logo">
+    <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478211926069359/zyro-image-removebg-preview.png?ex=66165c8e&is=6603e78e&hm=9715230f0fae90a45e9e94aa0fcb24972a45e1ad7a30d4660136a994f592e217&"
+         alt="logo">
 </nav>
 <div class="profileBack">
-    <button class="backButton" id="arrowBack"><img class="backButtonImage" src="https://static.thenounproject.com/png/1227050-200.png" alt="arrow"></button>
+    <button class="backButton" id="arrowBack"><img class="backButtonImage"
+                                                   src="https://static.thenounproject.com/png/1227050-200.png"
+                                                   alt="arrow"></button>
 </div>
 
 <section class="profileData">
     <form action="#">
         <section class="upperProfile">
             <div class="profileImage">
-                <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478177515999242/funny_profile.jpeg?ex=66165c86&is=6603e786&hm=5671c5fde119cd459572d9ce4e94f4e9a1f4410e338e4113ce4641dfbe5c0962&" alt="profilePicture">
+                <img src="https://cdn.discordapp.com/attachments/1204478086205284492/1222478177515999242/funny_profile.jpeg?ex=66165c86&is=6603e786&hm=5671c5fde119cd459572d9ce4e94f4e9a1f4410e338e4113ce4641dfbe5c0962&"
+                     alt="profilePicture">
                 <a href="#">Foto aanpassen</a>
             </div>
             <div class="nameInputs">
@@ -32,33 +36,33 @@
                 </div>
             </div>
         </section>
+
         <section class="contactInfo">
-            <div>
+            <div class="inputFlex">
                 <label for="email">Email</label>
                 <input required type="email" id="email" name="email">
             </div>
-            <div>
+            <div class="inputFlex">
                 <label for="phonenumber">Telefoonnummer</label>
                 <input required type="tel" id="phonenumber" name="phonenumber">
             </div>
         </section>
-        <div class="submit">
-            <button type="submit">Gegevens aanpassen</button>
-        </div>
+        <button class="editProfile" type="submit">Gegevens aanpassen</button>
     </form>
 </section>
 
 <div id="contact">
-    <div>
-        <h2>Contacteer ons</h2>
+    <div class="titleBorder">
+        <h2 class="workoutTitle">Contacteer ons</h2>
     </div>
-    <section>
+
+    <div class="text">
         <p>Email: fysio@gmail.com</p>
         <p>Telefoonnummer: 06 12345678</p>
-    </section>
+    </div>
 
     <form action="#">
-        <div>
+        <div class="message">
             <label for="message">Wilt u een vraag stellen?</label>
             <input id="message" name="message">
         </div>
