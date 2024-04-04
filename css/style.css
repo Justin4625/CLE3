@@ -40,6 +40,18 @@ h3 {
     padding-top: 5px;
 }
 
+.underTitle2 {
+    background-color: #BDD1BD;
+    margin-bottom: 1vh;
+    font-size: 3rem;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.gap {
+    padding: 1vh;
+}
+
 .workout {
     background-color: #EEF4ED;
     margin: 0;
@@ -183,12 +195,27 @@ nav a {
     font-size: 2rem;
 }
 
+.recommendations2 {
+    background-color: #85B093;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
 .recommendation {
     padding: 20px;
     background-color: #EEF4ED;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
+}
+
+.recommendation2 {
+    padding: 20px;
+    background-color: #EEF4ED;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .timer {
@@ -376,7 +403,7 @@ label {
     padding: 0.1vh 2vw;
 }
 
-.add button{
+.add button {
     font-size: 2rem;
     flex: 3;
     font-weight: bold;
@@ -455,4 +482,58 @@ label {
 iframe {
     width: 640px;
     height: 360px;
+}
+
+.infoFlex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.iconInfo {
+    width: 30vh;
+}
+
+.iconInfo img {
+    width: 2vh;
+    height: 2vh;
+    margin-left: 1vh;
+}
+
+.text2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.text3 {
+    margin: 0.6vh 0 0 0;
+    font-size: 1.9rem;
+}
+
+.info {
+    margin-top: 1.7vh;
+}
+
+#changeButton, #changeButton2, #changeButton3, #changeButton4, #changeButton5 {
+    border: none;
+    background-color: #BDD1BD;
+    border-radius: 1vh;
+    font-size: 2rem;
+    padding: 0.8vh 3vh 0.8vh 3vh;
+    margin-right: 2vh;
+    margin-top: 2.3vh;
+    margin-bottom: 2.7vh;
+}
+
+#startWorkoutButton {
+    border: none;
+    background-color: #85B093;
+    border-radius: 1vh;
+    font-size: 3rem;
+    padding: 1vh 8vh 1vh 8vh;
+}
+
+.start {
+    text-align: center;
+    margin-bottom: 4vh;
 }

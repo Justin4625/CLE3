@@ -16,85 +16,124 @@
 </nav>
 
 <!-- Titelkopje en een terugknop -->
-<div>
-    <h2>
-        <button class="backButton" id="arrowBack"><img class="backButtonImage"
-                                                       src="https://static.thenounproject.com/png/1227050-200.png"
-                                                       alt="arrow">
+<div class="titleBorder">
+    <h2 class="workoutTitle">
+        <button class="backButton1" id="arrowBack1"><img class="backButtonImage1"
+                                                         src="https://static.thenounproject.com/png/1227050-200.png"
+                                                         alt="arrow">
         </button>
         Bovenlichaam
     </h2>
 </div>
 
+<!-- Lege strook -->
+<div class="gap"></div>
+
 <!-- Titelkopje -->
 <div>
-    <h3>Schouder, Triceps</h3>
+    <h3 class="underTitle2">Schouder, Triceps</h3>
 </div>
 
 <!-- Informatie -->
 <section>
 
-    <!-- Locatie -->
-    <div>
-        <img src="https://cdn-icons-png.freepik.com/512/535/535239.png" alt="location">
-        <div>Locatie: Sportschool</div>
-    </div>
+    <!-- Icons met tekst -->
+    <div class="infoFlex">
+        <div class="iconInfo">
+            <p class="text2"><img class="location" src="https://cdn-icons-png.freepik.com/512/535/535239.png"
+                                  alt="location">
+                Locatie:</p>
+            <p class="text2"><img class="timer"
+                                  src="https://static-00.iconduck.com/assets.00/timer-icon-512x512-vrl212i7.png"
+                                  alt="timer"> Duur:</p>
+            <p class="text2"><img class="energy" src="https://static.thenounproject.com/png/2005015-200.png"
+                                  alt="energy">
+                Energieniveau:</p>
+            <p class="text2"><img class="equipment" src="https://static.thenounproject.com/png/49996-200.png"
+                                  alt="material">
+                Benodigheden:</p>
+        </div>
 
-    <!-- Tijdsduur -->
-    <div>
-        <img src="https://static-00.iconduck.com/assets.00/timer-icon-512x512-vrl212i7.png" alt="timer">
-        <div>Duur: 25 min</div>
-    </div>
-
-    <!-- Energieniveau -->
-    <div>
-        <img src="https://cdn-icons-png.flaticon.com/512/657/657104.png" alt="energy">
-        <div>Energieniveau: 2</div>
-    </div>
-
-    <!-- Benodigheden -->
-    <div>
-        <img src="https://static.thenounproject.com/png/49996-200.png" alt="material">
-        <div>Benodigheden: Dumbells, single handle en trainingstouw cable attachment</div>
+        <!-- De bijbehorende informatie -->
+        <div class="info">
+            <p class="text3">Sportschool</p>
+            <p class="text3">25 min</p>
+            <p class="text3">2</p>
+            <p class="text3">Dumbells, single handle en trainingstouw cable attachment</p>
+        </div>
     </div>
 </section>
 
 <!-- Tussenkopje -->
 <div>
-    <h3>Oefeningen:</h3>
+    <h3 class="underTitle2">Oefeningen:</h3>
 </div>
 
 <!-- Verschillende oefeningen -->
-<section>
+<section class="recommendations2">
+    <div class="recommendation2">
+        <div>
+            <p>Lat pulldown</p>
+            <p>3 x 12 sets</p>
+        </div>
+        <div>
+            <button id="changeButton">Pas aan</button>
+        </div>
+    </div>
 
     <!-- Oefening -->
-    <div>Lat pulldown</div>
-    <div>3 x 12 sets</div>
-    <button id="changeButton">Pas aan</button>
+    <div class="recommendation2">
+        <div>
+            <p>Bicep curl (machine)</p>
+            <p>3 x 12 sets</p>
+        </div>
+        <div>
+            <button id="changeButton2">Pas aan</button>
+        </div>
+    </div>
 
     <!-- Oefening -->
-    <div>Bicep curl (machine)</div>
-    <div>3 x 12 sets</div>
-    <button>Pas aan</button>
+    <div class="recommendation2">
+        <div>
+            <p>Seated row (single arm)</p>
+            <p>3 x 10 sets</p>
+        </div>
+        <div>
+            <button id="changeButton3">Pas aan</button>
+        </div>
+    </div>
 
     <!-- Oefening -->
-    <div>Seated row (single arm)</div>
-    <div>3 x 10 sets</div>
-    <button>Pas aan</button>
+    <div class="recommendation2">
+        <div>
+            <p>Bicep curl (cable)</p>
+            <p>3 x 10 sets</p>
+        </div>
+        <div>
+            <button id="changeButton4">Pas aan</button>
+        </div>
+    </div>
 
     <!-- Oefening -->
-    <div>Bicep curl (cable)</div>
-    <div>3 x 10 sets</div>
-    <button>Pas aan</button>
+    <div class="recommendation2">
+        <div>
+            <p>Rear delt</p>
+            <p>3 x 12 sets</p>
+        </div>
+        <div>
+            <button id="changeButton5">Pas aan</button>
+        </div>
+    </div>
 
-    <!-- Oefening -->
-    <div>Rear delt</div>
-    <div>3 x 12 sets</div>
-    <button>Pas aan</button>
+    <!-- Groene lijn boven de workout start knop -->
+    <div class="recommendation2"></div>
+
 </section>
 
 <!-- Workout starten button -->
-<button id="startWorkoutButton">Start Workout</button>
+<div class="start">
+    <button id="startWorkoutButton">Start Workout</button>
+</div>
 
 </body>
 </html>
