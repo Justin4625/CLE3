@@ -51,7 +51,7 @@ h3 {
 
 nav {
     background-color: #326D6C;
-    padding: 2vw;
+    padding: 4vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,7 +140,7 @@ nav a {
 }
 
 .workoutTitle {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-left: 1vh;
     margin-bottom: 0;
     display: flex;
@@ -170,10 +170,7 @@ nav a {
     background-color: #85B093;
     border: none;
     border-radius: 4px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 20px 40px;
     margin-left: 50px;
     margin-top: 2vh;
     font-size: 1.5rem;
@@ -215,13 +212,13 @@ nav a {
 }
 
 .backButtonImage {
-    width: 100px;
+    width: 70px;
     background-color: #EEF4ED;
     cursor: pointer;
 }
 
 .backButtonImage1 {
-    width: 100px;
+    width: 70px;
     background-color: #85B093;
     cursor: pointer;
 }
@@ -399,4 +396,58 @@ label {
     font-size: 2rem;
     padding: 15px 30px;
     font-weight: bold;
+}
+
+.spaceBetween {
+    height: 5vh;
+}
+
+.locations {
+    display: flex;
+    gap: 3vw;
+    padding: 3vh 5vh 11vw;
+}
+
+.locations button {
+    background-color: #BDD1BD;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5vh 3vw;
+    border-radius: 10px;
+}
+
+.durations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    gap: 2vw;
+}
+
+.row {
+    display: flex;
+    gap: 2vw;
+}
+
+.durations button {
+    background-color: #BDD1BD;
+    border: none;
+    font-size: 2rem;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 10px;
+}
+
+#filterButton {
+    background-color: #85B093;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: 1vh 7vw;
+    border: none;
+    border-radius: 10px;
+}
+
+.filterButton {
+    text-align: center;
+    margin-top: 7vh;
 }
