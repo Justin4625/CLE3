@@ -194,6 +194,16 @@ nav a {
     justify-content: space-between;
 }
 
+.timer {
+    width: 1.7vh;
+    height: 1.7vh;
+}
+
+.energy {
+    width: 1.7vh;
+    height: 1.7vh;
+}
+
 .backButton {
     background-color: #EEF4ED;
     border: none;
