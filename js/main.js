@@ -3,14 +3,17 @@ window.addEventListener('load', init);
 let selectOption
 let selectOptions
 let submitButton
+let answerQuestion = []
+const answerKey = 'answer'
 
 function init(){
-  selectOption = document.getElementById('selectOption');
-  selectOptions = document.getElementById('selectOptions');
-  selectOption.addEventListener('click', toggleDropdown2);
-  selectOptions.addEventListener('click', toggleDropdown);
-  submitButton = document.getElementById('buttonToHome');
-  submitButton.addEventListener('click', linkToHomepage);
+    getanswerQuestionFromLocalStorage();
+    selectOption = document.getElementById('selectOption');
+    selectOptions = document.getElementById('selectOptions');
+    selectOption.addEventListener('click', toggleDropdown2);
+    selectOptions.addEventListener('click', toggleDropdown);
+    submitButton = document.getElementById('buttonToHome');
+    submitButton.addEventListener('click', linkToHomepage);
 }
 
 function toggleDropdown() {
