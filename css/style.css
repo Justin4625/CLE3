@@ -338,3 +338,54 @@ label {
     font-size: 2rem;
     margin-bottom: 4vh;
 }
+
+.repSection {
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.reps {
+    width: 20vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reps img {
+    width: 3.5vw;
+}
+
+.reps p {
+    font-size: 2rem;
+}
+
+.amountReps {
+    background-color: #BDD1BD;
+    padding: 0.1vh 2vw;
+}
+
+.add button{
+    font-size: 2rem;
+    flex: 3;
+    font-weight: bold;
+    border: none;
+}
+
+.workoutButtons {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+}
+
+.workoutButtons button {
+    background-color: #85B093;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 15px 30px;
+    font-weight: bold;
+}
