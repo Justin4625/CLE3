@@ -3,6 +3,8 @@ window.addEventListener('load', init);
 let selectOption
 let selectOptions
 let submitButton
+let checkbox = []
+let checkboxClick
 let answerQuestion = []
 const answerKey = 'answer'
 
@@ -14,6 +16,8 @@ function init(){
     selectOptions.addEventListener('click', toggleDropdown);
     submitButton = document.getElementById('buttonToHome');
     submitButton.addEventListener('click', linkToHomepage);
+    checkboxClick = document.getElementById("dropdownContent2")
+    checkboxClick.addEventListener('click', clickHandler);
 }
 
 function toggleDropdown() {
@@ -35,6 +39,39 @@ function toggleDropdown2() {
     }
 }
 
+function clickHandler(e) {
+    const clickedElement = e.target
+    const checkboxId = clickedElement.dataset.id
+    console.log(e.target.nodeName)
+    if (clickedElement !== 'INPUT'){
+        return
+    }
+
+    const chosenCheckbox = answerQuestion.indexOf(checkboxId)
+    const checkboxAnswer = document.querySelector(`.dropdownContent[data.id="${pal[palId].name}"]`);
+
+    if (chosenCheckbox !== -1) {
+            answerQuestion.splice(chosenCheckbox, 1)
+            checkboxAnswer.classList.remove('favorite')
+     } else {
+            answerQuestion.push(chosenCheckbox)
+            checkboxId.classList.add('favorite')
+        }
+        localStorage.setItem(answerKey, JSON.stringify(answerQuestion))
+    }
+
+
+    if (answerQuestion.includes(checkbox.id.toString())) {
+        checkbox.classList.add('favorite');
+    }
+
+
+function getanswerQuestionFromLocalStorage(){
+
+}
+
 function linkToHomepage(e){
     window.location.href = "homepage.html"
+
+
 }
