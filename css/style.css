@@ -400,3 +400,8 @@ label {
     padding: 15px 30px;
     font-weight: bold;
 }
+
+iframe {
+    width: 640px;
+    height: 360px;
+}
