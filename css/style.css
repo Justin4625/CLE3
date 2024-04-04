@@ -182,7 +182,7 @@ nav a {
 .recommendations {
     background-color: #85B093;
     margin-bottom: 0;
-    padding-top: 0.1vh;
+    padding-top: 0.3vh;
     font-size: 2rem;
 }
 
@@ -192,6 +192,16 @@ nav a {
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
+}
+
+.timer {
+    width: 1.7vh;
+    height: 1.7vh;
+}
+
+.energy {
+    width: 1.7vh;
+    height: 1.7vh;
 }
 
 .backButton {
