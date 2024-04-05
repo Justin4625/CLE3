@@ -52,6 +52,15 @@ h3 {
     padding-top: 5px;
 }
 
+.underTitle3 {
+    background-color: #EEF4ED;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    font-size: 3rem;
+    padding-bottom: 1.5vh;
+    padding-top: 1.5vh;
+}
+
 .gap {
     padding: 1vh;
 }
@@ -350,6 +359,12 @@ label {
     margin-left: 3vh;
 }
 
+p.text2 {
+    font-size: 2rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+}
+
 .message {
     font-size: 3rem;
     margin-left: 3vh;
@@ -405,6 +420,19 @@ label {
 .amountReps {
     background-color: #BDD1BD;
     padding: 0.1vh 2vw;
+    border-radius: 0.5vh;
+}
+
+.amountReps2 {
+    background-color: #BDD1BD;
+    padding: 0.1vh 2vw;
+    margin-right: 1vh;
+    border-radius: 0.5vh;
+}
+
+.sets {
+    margin-left: 2vh;
+    margin-right: 1vh;
 }
 
 .add button {
@@ -484,8 +512,8 @@ label {
 }
 
 iframe {
-    width: 640px;
-    height: 360px;
+    width: 980px;
+    height: 550px;
 }
 
 .infoFlex {
@@ -537,7 +565,31 @@ iframe {
     padding: 1vh 8vh 1vh 8vh;
 }
 
+#nextExercise{
+    border: none;
+    background-color: #85B093;
+    border-radius: 1vh;
+    font-size: 3rem;
+    padding: 1vh 8vh 1vh 8vh;
+}
+
 .start {
     text-align: center;
     margin-bottom: 4vh;
+}
+
+.setNumber {
+    margin-right: 1.5vh;
+}
+
+.reps2 {
+    margin-right: 6vh;
+}
+
+.details {
+    margin-bottom: 3vh;
+}
+
+.info2 {
+    margin-bottom: 8vh;
 }
