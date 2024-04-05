@@ -8,7 +8,7 @@ let startWorkout;
 function init(){
     profileButton = document.getElementById('profileButton');
     profileButton.addEventListener('click', linkToProfile);
-    arrowBack = document.getElementById('arrowBack');
+    arrowBack = document.getElementById('arrowBack1');
     arrowBack.addEventListener('click', linkToKrachttraining);
     changeButton = document.getElementById('changeButton');
     changeButton.addEventListener('click', linkToLatPulldownPasAan);
