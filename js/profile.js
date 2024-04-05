@@ -22,7 +22,7 @@ function formSubmitted(e) {
     }
 
     let succesMessage = document.createElement('p');
-    succesMessage.innerText = 'Het is gelukt!';
+    console.log('Het is gelukt!');
     contactUs.appendChild(succesMessage);
 }
 

@@ -8,7 +8,7 @@ function init(){
     profileButton = document.getElementById('profileButton');
     profileButton.addEventListener('click', linkToProfile);
     arrowBack = document.getElementById('arrowBack');
-    arrowBack.addEventListener('click', linkToWorkoutDetailsBovenlichaam);
+    arrowBack.addEventListener('click', linkToLatPulldown);
     nextExercise = document.getElementById('nextExercise');
     nextExercise.addEventListener('click', differentExercise);
 }
@@ -17,10 +17,10 @@ function linkToProfile() {
     window.location.href = "profile.html"
 }
 
-function linkToWorkoutDetailsBovenlichaam() {
-    window.location.href = "workoutdetailsBovenlichaam.html"
+function linkToLatPulldown() {
+    window.location.href = "bovenlichaamLatPulldown.html"
 }
 
 function differentExercise() {
-   console.log('deze paginas moeten nog komen');
+    window.location.href = "seatedrow.html"
 }
